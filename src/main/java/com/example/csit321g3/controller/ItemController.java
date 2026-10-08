@@ -1,18 +1,18 @@
-package com.example.firstspringbootapp.controller;
+package com.example.csit321g3.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.example.firstspringbootapp.entity.ItemEntity;
-import com.example.firstspringbootapp.service.ItemService;
+import com.example.csit321g3.entity.ItemEntity;
+import com.example.csit321g3.service.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController 
-@RequestMapping(method=RequestMethod.GET, path="/item/api")
+@RequestMapping(path="/item/api")
 // #crossorigin is needed only when you’re ready to use this backend api in #your frontend app
-@CrossOrigin(origins = "http://localhost:3307")
+@CrossOrigin(origins = "http://localhost:3000")
 
 public class ItemController {
     @Autowired

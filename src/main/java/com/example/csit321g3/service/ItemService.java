@@ -1,4 +1,4 @@
-package com.example.firstspringbootapp.service;
+package com.example.csit321g3.service;
 
 import java.util.List;
 import java.util.NoSuchElementException;
@@ -9,10 +9,10 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
-import com.example.firstspringbootapp.entity.ItemEntity;
-import com.example.firstspringbootapp.exception.NameErrorResponse;
-import com.example.firstspringbootapp.exception.NameNotFoundException;
-import com.example.firstspringbootapp.repository.ItemRepository;
+import com.example.csit321g3.entity.ItemEntity;
+import com.example.csit321g3.exception.NameErrorResponse;
+import com.example.csit321g3.exception.NameNotFoundException;
+import com.example.csit321g3.repository.ItemRepository;
 
 
 @Service

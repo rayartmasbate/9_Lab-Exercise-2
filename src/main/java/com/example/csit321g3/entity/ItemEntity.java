@@ -1,4 +1,4 @@
-package com.example.firstspringbootapp.entity;
+package com.example.csit321g3.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
@@ -18,6 +18,12 @@ public class ItemEntity {
 
     //generate constructor
     public ItemEntity() {
+    }
+
+    public ItemEntity(String name, String unit, float price) {
+        this.name = name;
+        this.unit = unit;
+        this.price = price;
     }
 
     //generate setter methods for certain attributes 

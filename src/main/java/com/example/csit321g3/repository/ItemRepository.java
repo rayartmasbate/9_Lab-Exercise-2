@@ -1,6 +1,6 @@
-package com.example.firstspringbootapp.repository;
+package com.example.csit321g3.repository;
 
-import com.example.firstspringbootapp.entity.ItemEntity;
+import com.example.csit321g3.entity.ItemEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
