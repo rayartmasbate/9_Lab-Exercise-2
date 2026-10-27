@@ -49,14 +49,12 @@ public class ItemService {
     }
     //D - Delete
     public String deleteItem(int id) {
-        String msg = "";
-        if (irepo.findById(id) != null) {
+        if (irepo.existsById(id)) {
             irepo.deleteById(id);
-            msg = "Item " + id + " is successfully deleted!";
-        }else {
-            msg = id + "does not exist!";
+            return "Item " + id + " is successfully deleted!";
+        } else {
+            return id + " does not exist!";
         }
-        return msg;
     }
     //specific exception
     @ExceptionHandler

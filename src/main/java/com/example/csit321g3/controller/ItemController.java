@@ -12,7 +12,7 @@ import java.util.List;
 @RestController 
 @RequestMapping(path="/item/api")
 // #crossorigin is needed only when you’re ready to use this backend api in #your frontend app
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "http://localhost:3307")
 
 public class ItemController {
     @Autowired
